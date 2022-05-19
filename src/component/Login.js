@@ -8,7 +8,7 @@ const Login = () => {
     <div className="row">
         <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
             <h1>User Login</h1>
-            <div className="row">
+            <div className="row g-3">
                 <div className="col co-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <label for="" className="form-label">  User Name</label>
                     
