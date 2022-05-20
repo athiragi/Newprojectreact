@@ -17,17 +17,7 @@ function App() {
       <Route path="/register" exact element={<Register/>}/>
       <Route path="/add" exact element={<Bookdetails/>}/>
       <Route path="/view" exact element={<Viewbook/>}/>
-
-
-     
-
-      
-
-     
-   
-   
-
-    </Routes>
+      </Routes>
     </BrowserRouter>
   
   );
