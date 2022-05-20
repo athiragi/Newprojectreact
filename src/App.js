@@ -5,6 +5,7 @@ import Login from './component/Login';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Register from './component/Register';
+import Bookdetails from './component/Bookdetails';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       
       <Route path="/" exact element={<Login/>}/>
       <Route path="/register" exact element={<Register/>}/>
+      <Route path="/add" exact element={<Bookdetails/>}/>
+
 
      
 
